@@ -363,7 +363,7 @@ void outletObjectAwoke(id sender) {
             [window setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
 //            [window setCollectionBehavior:NSWindowCollectionBehaviorFullScreenAuxiliary];
             [NSApp setPresentationOptions:NSApplicationPresentationFullScreen];
-
+            [window setLevel:NSFloatingWindowLevel];
        
         }else{
 #endif   
